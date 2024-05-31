@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("/fonts/Montserrat/Montserrat-Medium.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("/fonts/Montserrat/Montserrat-Bold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1250px;
+}
+
+.container-elements {
+    width: 1250px;
+}
+
+.container-forms {
+    width: 1250px;
+}
+
+.container-lists {
+    width: 1250px;
+}
+
+.container-semantic {
+    width: 1250px;
+}
+
+.container-link {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.head-link {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    margin: 25px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid;
+    border-color: black;
+    padding: 3px 5px;
+    background: white;
+    font-weight: 500;
+}
+
+.text {
+    display: flex;
+    width: 1120px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    gap: 50px;
+    padding: 0 70px;
+}
